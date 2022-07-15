@@ -5,7 +5,8 @@
 </template>
 
 <script>
-// import bootstrap from 'bootstrap';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import MainComponent from './components/MainComponent.vue';
 
 export default {
