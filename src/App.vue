@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <MyHeader />
+    <MyHeader :internalMap="siteSections" />
     <MainComponent />
   </div>
 </template>
@@ -11,6 +11,40 @@ import MyHeader from './components/MyHeader.vue';
 
 export default {
   name: 'App',
+  data() {
+    return {
+      siteSections: [
+        {
+          name: 'Introduction',
+          id: '#intro',
+        },
+        {
+          name: 'Services',
+          id: '#services',
+        },
+        {
+          name: 'Shop',
+          id: '#shop',
+        },
+        {
+          name: 'Featured Product',
+          id: '#featured',
+        },
+        {
+          name: 'Reviews',
+          id: '#reviews',
+        },
+        {
+          name: 'Blog Posts',
+          id: '#blog',
+        },
+        {
+          name: 'Footer',
+          id: '#footer',
+        },
+      ],
+    };
+  },
   components: {
     MainComponent,
     MyHeader,
