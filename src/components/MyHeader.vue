@@ -2,8 +2,10 @@
   <section id="header">
     <div class="entire_header">
       <div class="container">
+        <!-- navbar in cima all'header -->
         <div class="navbar">
           <div class="navbar_left">
+            <!-- logo della compagnia -->
             <a class="navbar-brand" href="#">
               <img
                 src="../assets/img/avadabarbers-logo-x1.png"
@@ -14,7 +16,7 @@
           <div class="navbar_icons">
             <!-- icona shopping cart -->
             <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-            <!-- Collapse button -->
+            <!-- burger menu -->
             <button
               @click="showBurgerMenu"
               class="navbar-toggler"
@@ -24,6 +26,7 @@
             </button>
             <div v-if="dropdown_m" class="collapsed_menu">
               <ul>
+                <!-- lista dinamica di collegamenti alle varie section del sito -->
                 <li v-for="(element, index) in internalMap" :key="index">
                   <a :href="element.id">{{ element.name }}</a>
                 </li>
@@ -37,7 +40,7 @@
             <h1>Barber Shop</h1>
             <div class="golden_bar"></div>
             <div class="claim">The Pinnacle of Male Grooming</div>
-            <button class="learn_btn">LEARN MORE</button>
+            <button class="golden_btn">LEARN MORE</button>
           </div>
           <div class="header_hero_right">
             <img
@@ -108,6 +111,7 @@ export default {
     padding-block: 5px;
   }
 }
+// contenuto al centro dell'header
 .header_hero_content {
   width: 100%;
   display: flex;
@@ -132,12 +136,6 @@ export default {
     margin-bottom: 30px;
     font-size: 1.5rem;
     color: $secondary_color;
-  }
-  .learn_btn {
-    color: $main_color;
-    border: 2px solid $main_color;
-    padding: 15px 30px;
-    background-color: transparent;
   }
 }
 .header_hero_right {

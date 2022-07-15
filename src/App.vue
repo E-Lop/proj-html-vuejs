@@ -2,12 +2,14 @@
   <div id="app">
     <MyHeader :internalMap="siteSections" />
     <MainComponent />
+    <MyFooter :shopInfo="shopLocationInfo" />
   </div>
 </template>
 
 <script>
 import MainComponent from './components/MainComponent.vue';
 import MyHeader from './components/MyHeader.vue';
+import MyFooter from './components/MyFooter.vue';
 
 export default {
   name: 'App',
@@ -16,38 +18,46 @@ export default {
       siteSections: [
         {
           name: 'Introduction',
-          id: '#intro',
+          id: '#siteintro',
         },
         {
           name: 'Services',
-          id: '#services',
+          id: '#siteservices',
         },
         {
           name: 'Shop',
-          id: '#shop',
+          id: '#siteshop',
         },
         {
           name: 'Featured Product',
-          id: '#featured',
+          id: '#sitefeatured',
         },
         {
           name: 'Reviews',
-          id: '#reviews',
+          id: '#sitereviews',
         },
         {
           name: 'Blog Posts',
-          id: '#blog',
+          id: '#siteblog',
         },
         {
           name: 'Footer',
-          id: '#footer',
+          id: '#sitefooter',
         },
+      ],
+      shopLocationInfo: [
+        'Avada Barbers',
+        '123 New York City',
+        'New York City',
+        'info@yourwebsite.com',
+        '+1(555)555-1212',
       ],
     };
   },
   components: {
     MainComponent,
     MyHeader,
+    MyFooter,
   },
 };
 </script>
