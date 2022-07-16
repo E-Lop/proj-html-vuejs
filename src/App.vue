@@ -65,4 +65,7 @@ export default {
 <style lang="scss">
 @import './assets/style/common.scss';
 @import './assets/style/variables.scss';
+#app {
+  max-width: 2048px;
+}
 </style>
