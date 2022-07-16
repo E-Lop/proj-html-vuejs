@@ -68,7 +68,6 @@ export default {
     background-color: #121314;
     height: 150px;
     background-color: #121314;
-    border-bottom: 1px solid #121314;
   }
   .col_box {
     display: flex;
