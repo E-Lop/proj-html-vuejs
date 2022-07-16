@@ -49,6 +49,7 @@ export default {
     .col_sx {
       width: 40%;
       background-image: url('../assets/img/avadabarbers-cta-background.jpg');
+      background-position: center;
       object-fit: contain;
     }
     .col_dx {

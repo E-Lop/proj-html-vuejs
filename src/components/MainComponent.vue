@@ -4,6 +4,7 @@
     <MyServices />
     <MyShop />
     <MyFeatured />
+    <MyReviews />
   </main>
 </template>
 
@@ -12,6 +13,7 @@ import MyIntro from '../components/MyIntro.vue';
 import MyServices from '../components/MyServices.vue';
 import MyShop from '../components/MyShop.vue';
 import MyFeatured from '../components/MyFeatured.vue';
+import MyReviews from '../components/MyReviews.vue';
 export default {
   name: 'MainComponent',
   components: {
@@ -19,6 +21,7 @@ export default {
     MyServices,
     MyShop,
     MyFeatured,
+    MyReviews,
   },
 };
 </script>
