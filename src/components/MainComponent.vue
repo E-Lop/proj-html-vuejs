@@ -1,12 +1,16 @@
 <template>
   <main>
-    <section id="siteintro"></section>
+    <MyIntro />
   </main>
 </template>
 
 <script>
+import MyIntro from '../components/MyIntro.vue';
 export default {
   name: 'MainComponent',
+  components: {
+    MyIntro,
+  },
 };
 </script>
 

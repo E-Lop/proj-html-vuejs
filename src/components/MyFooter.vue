@@ -4,6 +4,7 @@
     <div class="footer_top">
       <div class="container">
         <div class="footertop_box">
+          <!-- parte superiore, colonna sinistra -->
           <div class="footertop_left_col">
             <img
               src="../assets/img/avadabarbers_footer_shop_image-600x468.png"
@@ -11,6 +12,7 @@
             />
             <div class="golden_btn">SHOP OUR RANGE NOW</div>
           </div>
+          <!-- parte superiore, colonna centrale -->
           <div class="footertop_mid_col">
             <img
               src="../assets/img/avadabarbers-logo-x1.png"
@@ -41,6 +43,7 @@
               </div>
             </div>
           </div>
+          <!-- parte superiore, colonna destra -->
           <div class="footertop_right_col">
             <img
               src="../assets/img/avadabarbers_footer_appointment_image-600x468.png"
@@ -57,6 +60,7 @@
         &#169; Copyright 2012-2020 | Avada Theme by ThemeFusion | All Rights
         Reserved | Powered by WordPress
       </div>
+      <!-- link per tornare in cima alla pagina -->
       <div class="back_to_top">
         <a href="#header"><i class="fa-solid fa-chevron-up"></i></a>
       </div>
