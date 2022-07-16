@@ -49,6 +49,7 @@
               src="../assets/img/avadabarbers_footer_appointment_image-600x468.png"
               alt="Immagine taglio di capelli per riservare una prenotazione"
             />
+
             <div class="golden_btn">BOOK YOUR APPOINTMENT</div>
           </div>
         </div>

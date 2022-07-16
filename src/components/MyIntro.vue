@@ -1,6 +1,6 @@
 <template>
   <div id="siteintro">
-    <div>AWARD WINNING</div>
+    <div class="golden_words">AWARD WINNING</div>
     <h2>Pro Barbers</h2>
     <button class="golden_btn">MEET YOUR NEW BARBER</button>
   </div>
@@ -24,10 +24,7 @@ export default {
   text-align: center;
   padding-top: 100px;
   padding-bottom: 150px;
-  div {
-    color: $main_color;
-    font-size: 1.5rem;
-  }
+
   h2 {
     color: $secondary_color;
     font-size: 4rem;
