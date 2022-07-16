@@ -1,5 +1,5 @@
 <template>
-  <div class="entire_intro">
+  <div id="siteintro">
     <div>AWARD WINNING</div>
     <h2>Pro Barbers</h2>
     <button class="golden_btn">MEET YOUR NEW BARBER</button>
@@ -15,20 +15,24 @@ export default {
 <style lang="scss" scoped>
 @import '../assets/style/variables.scss';
 @import '../assets/style/common.scss';
-.entire_intro {
+#siteintro {
   background-image: url('../assets/img/avadabarbers-about-introbackground.jpg');
+  clip-path: polygon(100% 0, 100% 100%, 50% 80%, 0% 100%, 0% 0%);
   object-fit: cover;
   background-position: top;
   background-repeat: no-repeat;
   text-align: center;
-  //   todo
-  height: 800px;
+  padding-top: 100px;
+  padding-bottom: 150px;
   div {
     color: $main_color;
+    font-size: 1.5rem;
   }
   h2 {
     color: $secondary_color;
-    font-size: 2rem;
+    font-size: 4rem;
+    padding-top: 10px;
+    padding-bottom: 40px;
   }
 }
 </style>
