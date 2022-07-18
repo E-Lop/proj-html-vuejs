@@ -135,9 +135,9 @@ export default {
     color: white;
     padding: 10px;
     background-color: #303030;
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    right: 50px;
+    right: 5%;
   }
 }
 .copy_bottom {

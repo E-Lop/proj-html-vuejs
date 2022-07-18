@@ -137,7 +137,11 @@ export default {
     font-size: 1.5rem;
     color: $secondary_color;
   }
+  .golden_btn:hover {
+    transform: scale(1.2);
+  }
 }
+
 .header_hero_right {
   width: 50%;
 }
