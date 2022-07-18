@@ -47,11 +47,13 @@ a {
 body {
   font-family: 'roboto';
 }
+// stile titoli sezione grigi con serif
 .decorated_text {
   font-family: 'Abril Fatface';
   color: $secondary_color;
   font-size: 4rem;
 }
+// stile elementi sia dorati che con serif
 .fatface_gold {
   font-family: 'Abril Fatface';
   font-weight: bold;

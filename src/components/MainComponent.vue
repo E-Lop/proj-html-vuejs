@@ -5,6 +5,7 @@
     <MyShop />
     <MyFeatured />
     <MyReviews />
+    <MyBlogPost />
   </main>
 </template>
 
@@ -14,6 +15,7 @@ import MyServices from '../components/MyServices.vue';
 import MyShop from '../components/MyShop.vue';
 import MyFeatured from '../components/MyFeatured.vue';
 import MyReviews from '../components/MyReviews.vue';
+import MyBlogPost from '../components/MyBlogPost.vue';
 export default {
   name: 'MainComponent',
   components: {
@@ -22,6 +24,7 @@ export default {
     MyShop,
     MyFeatured,
     MyReviews,
+    MyBlogPost,
   },
 };
 </script>
