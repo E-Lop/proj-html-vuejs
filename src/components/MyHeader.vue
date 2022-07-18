@@ -9,10 +9,11 @@
             <a class="navbar-brand" href="#">
               <img
                 src="../assets/img/avadabarbers-logo-x1.png"
-                alt="Logo Avada Barbers"
+                alt="Logo Avada Barbers, la A nella parola Barbers è sostituita dall'immagine di un paio di forbici rivolte verso il basso"
               />
             </a>
           </div>
+          <!-- gruppo di due icone sulla destra -->
           <div class="navbar_icons">
             <!-- icona shopping cart -->
             <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
@@ -29,6 +30,7 @@
                 />
               </span>
             </button>
+            <!-- menu a scomparsa con link alle varie sezioni del sito, di default invisibile -->
             <transition name="fade">
               <div v-if="dropdown_m" class="collapsed_menu">
                 <ul>
@@ -62,7 +64,7 @@
               alt="immagine barbiere al lavoro"
             />
           </div>
-          <!-- quadtati sfondo bianco a destra -->
+          <!-- quadrati sfondo bianco a destra -->
           <div class="white_buttons">
             <div class="demos white_btn">
               <i class="fa-brands fa-atlassian"></i>
@@ -89,13 +91,16 @@ export default {
   },
   data() {
     return {
+      // variabile flag che regola la visibilità del menu a tendina
       dropdown_m: false,
     };
   },
   methods: {
     closeTheMenu() {
+      // fa scomparire il menu a tendina
       this.dropdown_m = false;
     },
+    // toggle che apre e chiude il menu a tendina
     showBurgerMenu() {
       this.dropdown_m = !this.dropdown_m;
     },
@@ -111,6 +116,7 @@ export default {
   background-position: top;
   background-repeat: no-repeat;
 }
+// PARTE SUPERIORE HEADER CON NAVBAR
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -127,6 +133,7 @@ export default {
     width: 170px;
   }
 }
+// distanzia menu a tendina da carrello
 .navbar-toggler {
   margin-left: 20px;
 }
@@ -149,6 +156,7 @@ export default {
   font-size: 1.5rem;
   li {
     padding-block: 5px;
+    // all'hover il testo della li diventa dorato
     .selected:hover {
       color: $main_color;
     }
@@ -163,11 +171,13 @@ export default {
 .fade.leave-to {
   opacity: 0;
 }
-// contenuto al centro dell'header
+
+// PARTE CENTRALE HEADER
 .header_hero_content {
   width: 100%;
   display: flex;
 }
+// colonna sinistra con testi e bottone
 .header_hero_left {
   width: 50%;
   display: flex;
@@ -190,12 +200,12 @@ export default {
     color: $secondary_color;
   }
 }
-// colonna
+// colonna destra con immagine
 .header_hero_right {
   width: 50%;
 }
 
-// tasti sfondo bianco sulla destra position fixed
+// TASTI SFONDO BIANCO SULLA DESTRA position fixed
 .white_buttons {
   position: fixed;
   right: 10px;

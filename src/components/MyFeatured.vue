@@ -2,13 +2,16 @@
   <div id="sitefeatured">
     <div class="container">
       <div class="entire_featured">
+        <!-- intera CTA sollevata rispetto al resto -->
         <div class="featured_box">
+          <!-- colonna a sx con immagine grande -->
           <div class="col_sx">
             <img
-              src="../assets/img/shaving_butter-200x200.png"
+              src="../assets/img/shaving_butter-400x400.png"
               alt="immagine crema da barba"
             />
           </div>
+          <!-- colonna a dx con testi e bottone -->
           <div class="col_dx">
             <div class="golden_words">THIS MONTH'S FEATURED PRODUT</div>
             <h2 class="decorated_text">Shaving Butter</h2>

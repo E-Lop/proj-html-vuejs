@@ -71,12 +71,8 @@ export default {
 }
 .col_box {
   display: flex;
-  .col_sx {
-    padding-inline: 70px;
-  }
-  .col_mid {
-    padding-inline: 70px;
-  }
+  .col_sx,
+  .col_mid,
   .col_dx {
     padding-inline: 70px;
   }

@@ -3,6 +3,7 @@
     <div class="entire_siteshop">
       <h4 class="golden_words">WE HAVE YOU COVERED</h4>
       <h2 class="decorated_text">Avada Grooming Products</h2>
+      <!-- parte con i 4 prodotti in vendita -->
       <div class="products_box">
         <div class="col1">
           <img

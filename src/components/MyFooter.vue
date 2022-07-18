@@ -1,6 +1,6 @@
 <template>
   <section id="sitefooter">
-    <!-- parte superiore del footer -->
+    <!-- PARTE SUPERIORE DEL FOOTER -->
     <div class="footer_top">
       <div class="container">
         <div class="footertop_box">
@@ -20,6 +20,7 @@
             />
             <div class="brickMortar">
               <ul>
+                <!-- informazioni generate dinamicamente da props -->
                 <li v-for="(element, index) in shopInfo" :key="index">
                   {{ element }}
                 </li>
@@ -55,7 +56,7 @@
         </div>
       </div>
     </div>
-    <!-- parte inferiore del footer -->
+    <!-- PARTE INFERIORE DEL FOOTER -->
     <div class="footer_bottom">
       <div class="copy_bottom">
         &#169; Copyright 2012-2020 | Avada Theme by ThemeFusion | All Rights

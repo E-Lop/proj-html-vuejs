@@ -5,6 +5,7 @@
 
     <div class="container">
       <div class="col_box">
+        <!-- colonna sinistra -->
         <div class="col_sx">
           <img
             src="../assets/img/avadabarbers-trimcut-icon-before.png"
@@ -16,6 +17,7 @@
             Quick but careful and ridiculously good looking.
           </p>
         </div>
+        <!-- colonna centrale -->
         <div class="col_mid">
           <img
             src="../assets/img/avadabarbers-washndry-icon.png"
@@ -27,6 +29,7 @@
             you a fresh head in a luxurious fashion.
           </p>
         </div>
+        <!-- colonna destra -->
         <div class="col_dx">
           <img
             src="../assets/img/avadabarbers-beardtrim-icon.png"
