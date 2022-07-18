@@ -66,6 +66,8 @@ export default {
 @import './assets/style/common.scss';
 @import './assets/style/variables.scss';
 #app {
+  margin: 0 auto;
   max-width: 2048px;
+  min-width: 880px;
 }
 </style>
