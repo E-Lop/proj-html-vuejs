@@ -22,7 +22,12 @@
               class="navbar-toggler"
               type="button"
             >
-              <span class="burger"><i class="fa-solid fa-bars"></i></span>
+              <span class="burger">
+                <img
+                  src="../assets/img/hamburger-button.png"
+                  alt="Tasto burger menu"
+                />
+              </span>
             </button>
             <div v-if="dropdown_m" class="collapsed_menu">
               <ul>
@@ -36,17 +41,32 @@
         </div>
         <!-- contenuto al centro dell'header -->
         <div class="header_hero_content">
+          <!-- parte a sinistra con testi e bottone -->
           <div class="header_hero_left">
             <h1 class="decorated_text">Barber Shop</h1>
             <div class="golden_bar"></div>
             <div class="claim">The Pinnacle of Male Grooming</div>
             <button class="golden_btn">LEARN MORE</button>
           </div>
+          <!-- parte sulla destra con immagine allo specchio -->
           <div class="header_hero_right">
             <img
               src="../assets/img/avadabarbers_hero_focalmirror-600x825.png"
               alt="immagine barbiere al lavoro"
             />
+          </div>
+          <!-- quadtati sfondo bianco a destra -->
+          <div class="white_buttons">
+            <div class="demos white_btn">
+              <i class="fa-brands fa-atlassian"></i>
+              <div>Demos</div>
+            </div>
+            <div class="sale white_btn">
+              <div class="bargain">
+                <div class="discount"><sup>$</sup>39</div>
+              </div>
+              <div>On Sale</div>
+            </div>
           </div>
         </div>
       </div>
@@ -100,6 +120,16 @@ export default {
 .navbar-toggler {
   margin-left: 20px;
 }
+.navbar_icons {
+  display: flex;
+  align-items: center;
+}
+.burger {
+  img {
+    width: 24px;
+    background: transparent;
+  }
+}
 .collapsed_menu {
   color: white;
   position: absolute;
@@ -138,8 +168,40 @@ export default {
     color: $secondary_color;
   }
 }
-
+// colonna
 .header_hero_right {
   width: 50%;
+}
+
+// tasti sfondo bianco sulla destra position fixed
+.white_buttons {
+  position: fixed;
+  right: 10px;
+  top: 80px;
+  z-index: 10;
+}
+.white_btn {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.demos {
+  i {
+    font-size: 2rem;
+  }
+}
+.sale {
+  margin-top: 5px;
+}
+.bargain {
+  color: #65bc7b;
+  font-size: 2rem;
+  font-weight: bold;
 }
 </style>
