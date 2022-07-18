@@ -37,6 +37,9 @@ a {
   background-color: transparent;
   text-align: center;
 }
+.golden_btn:hover {
+  transform: scale(1.2);
+}
 // stile generale per le parti con il testo dorato
 .golden_words {
   color: $main_color;
