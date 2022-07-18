@@ -34,7 +34,9 @@
                 <ul>
                   <!-- lista dinamica di collegamenti alle varie section del sito -->
                   <li v-for="(element, index) in internalMap" :key="index">
-                    <a :href="element.id">{{ element.name }}</a>
+                    <a class="selected" :href="element.id">{{
+                      element.name
+                    }}</a>
                   </li>
                 </ul>
               </div>
@@ -88,8 +90,16 @@ export default {
     };
   },
   methods: {
+    closeTheMenu() {
+      this.dropdown_m = false;
+    },
     showBurgerMenu() {
-      this.dropdown_m = !this.dropdown_m;
+      if (this.dropdown_m === false) {
+        this.dropdown_m = true;
+      } else {
+        this.dropdown_m = false;
+      }
+      setInterval(this.closeTheMenu, 5000);
     },
   },
 };
@@ -141,6 +151,9 @@ export default {
   font-size: 1.5rem;
   li {
     padding-block: 5px;
+    .selected:hover {
+      color: $main_color;
+    }
   }
 }
 // gestione effetto fade opacità del menu al click
