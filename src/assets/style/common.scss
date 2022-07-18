@@ -29,7 +29,7 @@ a {
   width: 60%;
   margin: 0 auto;
 }
-
+// stile generale per i button dorati
 .golden_btn {
   color: $main_color;
   border: 2px solid $main_color;
@@ -37,7 +37,22 @@ a {
   background-color: transparent;
   text-align: center;
 }
+// stile generale per le parti con il testo dorato
 .golden_words {
   color: $main_color;
   font-size: 1.5rem;
+}
+
+// font generale applicato a tutto il sito
+body {
+  font-family: 'roboto';
+}
+.decorated_text {
+  font-family: 'Abril Fatface';
+  color: $secondary_color;
+  font-size: 4rem;
+}
+.fatface_gold {
+  font-family: 'Abril Fatface';
+  font-weight: bold;
 }

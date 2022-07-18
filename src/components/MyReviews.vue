@@ -1,7 +1,7 @@
 <template>
   <div id="sitereviews">
     <div class="golden_words">WHAT PEOPLE SAY</div>
-    <h2>Reviews</h2>
+    <h2 class="decorated_text">Reviews</h2>
 
     <div class="container">
       <div class="col_box">

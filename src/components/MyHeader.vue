@@ -37,7 +37,7 @@
         <!-- contenuto al centro dell'header -->
         <div class="header_hero_content">
           <div class="header_hero_left">
-            <h1>Barber Shop</h1>
+            <h1 class="decorated_text">Barber Shop</h1>
             <div class="golden_bar"></div>
             <div class="claim">The Pinnacle of Male Grooming</div>
             <button class="golden_btn">LEARN MORE</button>

@@ -2,14 +2,14 @@
   <div id="siteshop">
     <div class="entire_siteshop">
       <h4 class="golden_words">WE HAVE YOU COVERED</h4>
-      <h2>Avada Grooming Products</h2>
+      <h2 class="decorated_text">Avada Grooming Products</h2>
       <div class="products_box">
         <div class="col1">
           <img
             src="../assets/img/brush_dark-400x400.png"
             alt="immagine pennello da barba"
           />
-          <h3 class="golden_words">Brush</h3>
+          <h3 class="golden_words fatface_gold">Brush</h3>
           <div class="price golden_words">$15.00</div>
         </div>
         <div class="col2">
@@ -17,7 +17,7 @@
             src="../assets/img/scissors-400x400.png"
             alt="immagine forbici da baribiere"
           />
-          <h3 class="golden_words">Scissors</h3>
+          <h3 class="golden_words fatface_gold">Scissors</h3>
           <div class="price golden_words">$85.00</div>
         </div>
         <div class="col3">
@@ -25,7 +25,7 @@
             src="../assets/img/hot_oil_dark-400x400.png"
             alt="immagine lozione da barba"
           />
-          <h3 class="golden_words">Hot Oil</h3>
+          <h3 class="golden_words fatface_gold">Hot Oil</h3>
           <div class="price golden_words">$15.00</div>
         </div>
         <div class="col4">
@@ -33,7 +33,7 @@
             src="../assets/img/straight_razor_dark-400x400.png"
             alt="immagine rasoio da barbiere"
           />
-          <h3 class="golden_words">Straight Razor</h3>
+          <h3 class="golden_words fatface_gold">Straight Razor</h3>
           <div class="price golden_words">$30.00</div>
         </div>
       </div>
@@ -60,8 +60,6 @@ export default {
   padding-top: 100px;
   padding-bottom: 150px;
   h2 {
-    color: $secondary_color;
-    font-size: 4rem;
     padding-top: 30px;
     padding-bottom: 80px;
   }

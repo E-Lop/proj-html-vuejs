@@ -11,7 +11,7 @@
           </div>
           <div class="col_dx">
             <div class="golden_words">THIS MONTH'S FEATURED PRODUT</div>
-            <h2>Shaving Butter</h2>
+            <h2 class="decorated_text">Shaving Butter</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
               nisi maiores exercitationem alias adipisci obcaecati magnam eius

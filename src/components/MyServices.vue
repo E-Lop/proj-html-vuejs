@@ -1,7 +1,7 @@
 <template>
   <div id="siteservices">
     <div class="golden_words">MENS GROOMING</div>
-    <h2>Services</h2>
+    <h2 class="decorated_text">Services</h2>
 
     <div class="container">
       <div class="col_box">
@@ -10,7 +10,7 @@
             src="../assets/img/avadabarbers-trimcut-icon-before.png"
             alt="Immagine macchinetta per capelli per il servizio Trim&Cut"
           />
-          <div class="golden_words">Trim & Cut</div>
+          <div class="golden_words fatface_gold">Trim & Cut</div>
           <p>
             Avada Barbers are experts in the lickety split trim and hair cut.
             Quick but careful and ridiculously good looking.
@@ -21,7 +21,7 @@
             src="../assets/img/avadabarbers-washndry-icon.png"
             alt="Immagine bottiglietta con sapone"
           />
-          <div class="golden_words">Wash & Dry</div>
+          <div class="golden_words fatface_gold">Wash & Dry</div>
           <p>
             Take a seat in our fine leather chairs, lean back and let us lather
             you a fresh head in a luxurious fashion.
@@ -32,7 +32,7 @@
             src="../assets/img/avadabarbers-beardtrim-icon.png"
             alt="Immagine macchinetta per capelli per il servizio Trim&Cut"
           />
-          <div class="golden_words">Beard Tidy</div>
+          <div class="golden_words fatface_gold">Beard Tidy</div>
           <p>
             Tame the tangles and untidy facial hair like a gentleman with our
             Beard Tidy services from Avada Barbers.
