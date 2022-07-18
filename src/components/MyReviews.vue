@@ -16,7 +16,7 @@
             src="../assets/img/avadabarbers-trimcut-gallery6-400x400.jpg"
             alt="Immagine di John Doe che guarda a sinistra"
           />
-          <div class="golden_words">John Doe</div>
+          <div class="who_said"><i class="golden_words">John Doe</i></div>
         </div>
         <div class="col_mid">
           <p>
@@ -29,7 +29,7 @@
             src="../assets/img/avadabarbers-trimcut-gallery7-400x402.jpg"
             alt="Immagine di Pete Jones che guarda dritto in camera"
           />
-          <div class="golden_words">Pete Jones</div>
+          <div class="who_said"><i class="golden_words">Pete Jones</i></div>
         </div>
         <div class="col_dx">
           <p>
@@ -42,7 +42,7 @@
             src="../assets/img/avadabarbers-trimcut-gallery3-400x402.jpg"
             alt="Immagine di Mark Wilson che guarda leggermente a sinistra"
           />
-          <div class="golden_words">Mark Wilson</div>
+          <div class="who_said"><i class="golden_words">Mark Wilson</i></div>
         </div>
       </div>
     </div>
@@ -91,5 +91,8 @@ export default {
   .golden_words {
     padding-top: 20px;
   }
+}
+.who_said {
+  padding-top: 20px;
 }
 </style>
