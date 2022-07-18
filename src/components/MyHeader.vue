@@ -34,9 +34,12 @@
                 <ul>
                   <!-- lista dinamica di collegamenti alle varie section del sito -->
                   <li v-for="(element, index) in internalMap" :key="index">
-                    <a class="selected" :href="element.id">{{
-                      element.name
-                    }}</a>
+                    <a
+                      @click="closeTheMenu"
+                      class="selected"
+                      :href="element.id"
+                      >{{ element.name }}</a
+                    >
                   </li>
                 </ul>
               </div>
@@ -99,7 +102,6 @@ export default {
       } else {
         this.dropdown_m = false;
       }
-      setInterval(this.closeTheMenu, 5000);
     },
   },
 };
