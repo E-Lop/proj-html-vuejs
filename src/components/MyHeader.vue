@@ -97,11 +97,7 @@ export default {
       this.dropdown_m = false;
     },
     showBurgerMenu() {
-      if (this.dropdown_m === false) {
-        this.dropdown_m = true;
-      } else {
-        this.dropdown_m = false;
-      }
+      this.dropdown_m = !this.dropdown_m;
     },
   },
 };
