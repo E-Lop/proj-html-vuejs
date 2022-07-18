@@ -29,14 +29,16 @@
                 />
               </span>
             </button>
-            <div v-if="dropdown_m" class="collapsed_menu">
-              <ul>
-                <!-- lista dinamica di collegamenti alle varie section del sito -->
-                <li v-for="(element, index) in internalMap" :key="index">
-                  <a :href="element.id">{{ element.name }}</a>
-                </li>
-              </ul>
-            </div>
+            <transition name="fade">
+              <div v-if="dropdown_m" class="collapsed_menu">
+                <ul>
+                  <!-- lista dinamica di collegamenti alle varie section del sito -->
+                  <li v-for="(element, index) in internalMap" :key="index">
+                    <a :href="element.id">{{ element.name }}</a>
+                  </li>
+                </ul>
+              </div>
+            </transition>
           </div>
         </div>
         <!-- contenuto al centro dell'header -->
@@ -140,6 +142,15 @@ export default {
   li {
     padding-block: 5px;
   }
+}
+// gestione effetto fade opacità del menu al click
+.fade-enter-active,
+.fade-leave.active {
+  transition: opacity 1s;
+}
+.fade-enter,
+.fade.leave-to {
+  opacity: 0;
 }
 // contenuto al centro dell'header
 .header_hero_content {
